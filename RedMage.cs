@@ -42,7 +42,7 @@ namespace Kupo.Rotations
             return DefaultRestBehavior(r => Core.Player.CurrentManaPercent);
         }
 
-        private readonly string[] _pullSpells = new[] { "Jolt II", "Jolt" };
+        private readonly string[] _pullSpells = new[] { "Jolt II", "Jolt", "Riposte" };
         private string _bestPullSpell;
         private uint _level;
 
