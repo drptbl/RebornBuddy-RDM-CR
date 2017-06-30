@@ -126,7 +126,7 @@ namespace Kupo.Rotations
                         Spell.Cast("Fleche", r => !Core.Player.HasAura("Swiftcast") && !Core.Player.HasAura("Dualcast")),
                         Spell.Cast("Contre Sixte", r => !Core.Player.HasAura("Swiftcast") && !Core.Player.HasAura("Dualcast") && Core.Player.ClassLevel >= 56),
 
-                        Spell.Cast("Impact", r => Core.Player.ClassLevel >= 67 && Core.Player.HasAura("Impactful")),
+                        Spell.Cast("Impact", r => Core.Player.ClassLevel >= 66 && Core.Player.HasAura("Impactful")),
                         Spell.Cast("Jolt", r => Core.Player.ClassLevel < 62),
                         Spell.Cast("Jolt II", r => Core.Player.ClassLevel >= 62)
                     )));
