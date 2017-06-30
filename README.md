@@ -5,14 +5,11 @@ Requirements:
 2. Kupo (bundled with RebornBuddy ^)
 
 How to install:
-1. Download `RedMage.cs`
-2. Go to `"\RebornBuddy\Routines\Kupo\Rotations"` folder and put this file there
-3. Run your bot and have fun
+1. Download `RedMage.cs` and `RedMageSettings.cs`
+2. Place `RedMage.cs` in `"\RebornBuddy\Routines\Kupo\Rotations"` folder
+3. Place `RedMageSettings.cs` in `"\RebornBuddy\Routines\Kupo\Settings"` folder
+4. Run your bot and have fun
 
-All RDM spells are supported and used in this rotation except minor AoE skills.
-
-Info:<br>
-- Sword combo is not supported.
-- Because of above, Verflare and Verholy spells are not supported.
+All RDM spells are supported and used in this rotation.
 
 Have fun!
