@@ -98,8 +98,8 @@ namespace Kupo.Rotations
                         Spell.Apply("Embolden", r => settings.UseEmbolden, r => Core.Player),
                         Spell.Apply("Lucid Dreaming", r => Core.Player.CurrentManaPercent <= settings.LucidDreamingManaPercent && settings.UseLucidDreaming, r => Core.Player),
 
-                        Spell.Cast("Scatter", r => settings.UseAoe && EnemiesNearPlayer(24.9f, f => f.TimeToDeath() > 3) >= settings.MinMonstersToAoe),
-                        Spell.Cast("Scatter", r => settings.UseAoe && EnemiesNearPlayer(24.9f, f => f.TimeToDeath() > 3) >= settings.MinMonstersToAoe),
+                        Spell.Cast("Scatter", r => settings.UseAoe && EnemiesNearPlayer(15.9f, f => f.TimeToDeath() > 3) >= settings.MinMonstersToAoe),
+                        Spell.Cast("Scatter", r => settings.UseAoe && EnemiesNearPlayer(15.9f, f => f.TimeToDeath() > 3) >= settings.MinMonstersToAoe),
 
                         Spell.Cast("Enchanted Zwerchhau", r => ActionManager.LastSpell.Name == "Riposte" && Core.Target.Distance2D() <= 2.9f),
                         Spell.Cast("Enchanted Redoublement", r => ActionManager.LastSpell.Name == "Zwerchhau" && Core.Target.Distance2D() <= 2.9f),
